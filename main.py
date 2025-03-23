@@ -55,4 +55,4 @@ if files:
             output.seek(0)
             st.download_button("⬇ Download File", file_name=new_name, data=output, mime=mime)
 
-st.success("✅ Processing completed!")
+st.success("✅ Processing completed!🎉")
