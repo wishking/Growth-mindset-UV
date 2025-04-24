@@ -1,7 +1,15 @@
-[project]
+[tool.poetry]
 name = "data-cleaner"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.12"
-dependencies = []
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+
+[tool.poetry.package]
+include = ["data_cleaner"]  # Make sure this matches the folder name
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
